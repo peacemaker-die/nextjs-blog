@@ -27,7 +27,7 @@ export default function Layout({children, home}){
                             width={144}
                             alt={name}
                         />
-                        <h1 clasName={utilStyles.heading2Xl}>{name}</h1>
+                        <h1 className={utilStyles.heading2Xl}>{name}</h1>
                     </>
                 ):(
                     <>
